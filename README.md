@@ -1,3 +1,3 @@
-![banner](/public/static/images/twitter-card.jpg)
+<!-- ![banner](/public/static/images/twitter-card.jpg) -->
 
-# David Levai's Digital Garden
+# Bigo Live's Bigo Mail Newsletter Site

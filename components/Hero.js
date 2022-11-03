@@ -3,13 +3,13 @@ import Link from '@/components/Link'
 
 const Hero = () => {
   return (
-    <section className="grid lg:grid-rows-1 lg:grid-cols-2 items-center justify-between py-8 min-w-screen">
+    <section className="grid items-center justify-between py-8 lg:grid-rows-1 lg:grid-cols-2 min-w-screen">
       <div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 xl:mb-0">
-        <div className="flex flex-col md:flex-row justify-start items-center">
+        <div className="flex flex-col items-center justify-start md:flex-row">
           <Image
             src="/static/images/avatar.png"
-            alt="An image about David Levai"
-            className="border-2 border-gray-200 rounded-full w-32 h-32 shadow-md"
+            alt="An image about Bigo Dino"
+            className="w-32 h-32 border-2 border-gray-200 rounded-full shadow-md"
             width={72}
             height={72}
             layout="fixed"
@@ -17,21 +17,25 @@ const Hero = () => {
             priority
             loading="eager"
           />
-          <h2 className="ml-2 text-3xl font-extrabold font-display leading-tight sm:text-4xl sm:leading-none md:text-5xl lg:text-5xl xl:text-6xl">
-            Dávid Lévai
+          <h2 className="ml-2 text-3xl font-extrabold leading-tight font-display sm:text-4xl sm:leading-none md:text-5xl lg:text-5xl xl:text-6xl">
+            Bigo Blog
           </h2>
         </div>
         <p className="mt-2 text-lg ">
-          Digital nomad creating content about building IT businesses and production-ready apps.
+          Bigo Mail is a weekly newsletter that gives you a birds-eye view of what's happening at
+          BIGO, and offers a first-hand, inside look about what it takes to be successful in the
+          world of livestreaming.
         </p>
         <p className="mt-8 text-sm text-gray-400 dark:text-gray-400">
-          Topics: React/Next.js, no-code, low-code, building businesses, building apps, freelancing,
-          productivity, digital nomad life, working out, and some other millenial things.
+          {/* a list of topics related to livestreaming on Bigo Live */}
+          Topics: Bigo Live app, growing your audience, building your brand, connecting with your
+          fans, going live, tips for streamers, how to be a successful streamer, what to stream on
+          Bigo Live.
         </p>
 
-        <Link href="https://twitter.com/iamdavidlevai">
+        <Link href="https://twitter.com/intent/follow?screen_name=bigolivena">
           <a
-            className="my-3 font-bold text-sm leading-6 text-green-600 hover:text-gray-100 flex flex-row items-center"
+            className="flex flex-row items-center my-3 text-sm font-bold leading-6 text-green-600 hover:text-gray-100"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -46,20 +50,20 @@ const Hero = () => {
             >
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
             </svg>
-            I'm posting stuff on Twitter too
+            We post stuff on Twitter too
           </a>
         </Link>
       </div>
-      <div className="py-12 grid grid-cols-1 gap-8 grid-rows-3">
-        <div className="grid gap-8 items-start my-2">
+      <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
+        <div className="grid items-start gap-8 my-2">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-green-600 to-amber-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <Link href="/projects">
-              <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+              <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-green-600 -rotate-6"
+                    className="w-6 h-6 text-green-600 -rotate-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -72,25 +76,25 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    Building apps & businesses in public
+                    List of Broadcaster Events
                   </span>
                 </span>
-                <span className="pl-6 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
-                  Projects &rarr;
+                <span className="pl-6 transition duration-200 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                  Events &rarr;
                 </span>
               </a>
             </Link>
           </div>
         </div>
-        <div className="grid gap-8 items-start my-2">
+        <div className="grid items-start gap-8 my-2">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <Link href="/content">
-              <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+            <Link href="/blog">
+              <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-pink-600 -rotate-6"
+                    className="w-6 h-6 text-pink-600 -rotate-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -103,25 +107,25 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    Educating about the business of IT
+                    Bigo Mail thoughts & ponderings
                   </span>
                 </span>
-                <span className="pl-6 text-indigo-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
-                  Content &rarr;
+                <span className="pl-6 text-indigo-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                  Blog &rarr;
                 </span>
               </a>
             </Link>
           </div>
         </div>
-        <div className="grid gap-8 items-start my-2">
+        <div className="grid items-start gap-8 my-2">
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-fuchsia-600 to-primary-600  rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <Link href="/mentoring">
-              <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+              <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-fuchsia-600 -rotate-6"
+                    className="w-6 h-6 text-fuchsia-600 -rotate-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -136,11 +140,11 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    Helping to grow as a dev entrepreneur
+                    Learning to grow as a live streaming
                   </span>
                 </span>
-                <span className="pl-6 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
-                  Mentoring & Courses &rarr;
+                <span className="pl-6 transition duration-200 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                  FAQ &rarr;
                 </span>
               </a>
             </Link>

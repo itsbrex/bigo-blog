@@ -21,7 +21,7 @@ const siteMetadata = require('../data/siteMetadata')
               .map((page) => {
                 const path = page
                   .replace('pages/', '/')
-                  .replace('data/content', '')
+                  .replace('data/blog', '')
                   .replace('public/', '/')
                   .replace('.js', '')
                   .replace('.mdx', '')

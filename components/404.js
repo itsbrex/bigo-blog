@@ -4,31 +4,31 @@ import Link from '@/components/Link'
 
 const links = [
   {
-    title: 'Content',
-    description: 'Read about the business of IT or how to build production-ready SaaS',
+    title: 'Blog Posts',
+    description: 'Read about the latest happenings from the Bigo Live community',
     icon: BookOpenIcon,
-    route: '/content',
+    route: '/blog',
   },
   {
-    title: 'Projects',
-    description: 'My open-source and private projects',
+    title: 'Events',
+    description: 'Broadcaster Events and information',
     icon: CodeIcon,
-    route: '/projects',
+    route: 'https://www.onbigo.live/',
   },
   {
     title: 'YouTube',
     description: 'Tutorials, guides, and vlog',
     icon: VideoCameraIcon,
-    route: 'https://dvdlv.me/yt',
+    route: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
   },
 ]
 
 export default function FourOFour() {
   return (
-    <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="max-w-xl mx-auto py-16 sm:py-24">
+    <main className="w-full px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="max-w-xl py-16 mx-auto sm:py-24">
         <div className="text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide">404 error</p>
+          <p className="text-sm font-semibold tracking-wide uppercase">404 error</p>
           <h1 className="mt-2 text-4xl font-extrabold tracking-tight sm:text-5xl">
             This page does not exist.
           </h1>
@@ -42,14 +42,14 @@ export default function FourOFour() {
                 <Link
                   key={linkIdx}
                   href={link.route}
-                  className="focus:outline-none relative py-6 flex items-center space-x-4"
+                  className="relative flex items-center py-6 space-x-4 focus:outline-none"
                 >
                   <div className="flex-shrink-0">
-                    <span className="flex items-center justify-center h-12 w-12 rounded-lg">
-                      <link.icon className="h-6 w-6 text-primary-700" aria-hidden="true" />
+                    <span className="flex items-center justify-center w-12 h-12 rounded-lg">
+                      <link.icon className="w-6 h-6 text-primary-700" aria-hidden="true" />
                     </span>
                   </div>
-                  <div className="min-w-0 flex-1">
+                  <div className="flex-1 min-w-0">
                     <h3 className="text-base font-medium">
                       <span className="rounded-sm focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                         {link.title}
@@ -57,8 +57,8 @@ export default function FourOFour() {
                     </h3>
                     <p className="text-base">{link.description}</p>
                   </div>
-                  <div className="flex-shrink-0 self-center">
-                    <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
+                  <div className="self-center flex-shrink-0">
+                    <ChevronRightIcon className="w-5 h-5" aria-hidden="true" />
                   </div>
                 </Link>
               </li>

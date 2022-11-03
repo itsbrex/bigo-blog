@@ -4,8 +4,8 @@ import { ErrorMessage } from '@hookform/error-message'
 import SuccessMessage from '@/components/SuccessMessage'
 
 const EmailCTA = ({
-  title = 'Join 100+ developers getting early access to tutorials and courses about building a business in IT',
-  description = 'I learned these in the past 10 years by building a digital product development agency, and dozens of different web & mobile applications for clients and myself.',
+  title = "Join thousands of Host's leveling up their game with the best tips, tricks and how-to videos from the best on Bigo",
+  description = "Bigo Live is a great platform for live streaming, and we want to make sure our users are getting the most out of it! With these tips, tricks, and tutorial content, you'll be able to take your audience growth to the next level.",
   list = 'monthly',
   cta = 'I want to be notified!',
   embedded = false,
@@ -41,12 +41,12 @@ const EmailCTA = ({
             <>
               <div className="lg:w-0 lg:flex-1">
                 <h2 className="text-3xl font-extrabold tracking-tight">{title}</h2>
-                <p className="mt-4 max-w-3xl text-md text-gray-500 dark:text-gray-400">
+                <p className="max-w-3xl mt-4 text-gray-500 text-md dark:text-gray-400">
                   {description}
                 </p>
               </div>
               <div className="sm:w-full sm:max-w-md lg:ml-8 lg:flex-1">
-                <form className="sm:flex flex-col" onSubmit={handleSubmit(onSubmit)}>
+                <form className="flex-col sm:flex" onSubmit={handleSubmit(onSubmit)}>
                   <label htmlFor="email-address" className="sr-only">
                     Email address
                   </label>
@@ -56,7 +56,7 @@ const EmailCTA = ({
                     type="email"
                     autoComplete="email"
                     required
-                    className="w-full border-gray-500 dark:border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-gray-800 dark:focus:ring-white rounded-md text-black"
+                    className="w-full px-5 py-3 text-black placeholder-gray-500 border-gray-500 rounded-md dark:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-gray-800 dark:focus:ring-white"
                     placeholder="Enter your email"
                     {...register('email', {
                       required: 'Email is required.',
@@ -72,7 +72,7 @@ const EmailCTA = ({
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-500 hover:bg-primary-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:w-auto sm:flex-shrink-0"
+                    className="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-white border border-transparent rounded-md bg-primary-500 hover:bg-primary-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:w-auto sm:flex-shrink-0"
                   >
                     {cta}
                   </button>

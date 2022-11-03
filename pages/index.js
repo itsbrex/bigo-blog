@@ -8,7 +8,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 const MAX_DISPLAY = 8
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('content')
+  const posts = await getAllFilesFrontMatter('blog')
 
   return { props: { posts } }
 }
@@ -17,7 +17,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700 max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
@@ -34,9 +34,9 @@ export default function Home({ posts }) {
               <Link
                 href={`/${slug}`}
                 key={slug}
-                className="flex group hover:bg-gray-100 dark:hover:bg-gray-800 bg-transparent bg-opacity-20 px-2 hover:rounded-xl transition duration-200"
+                className="flex px-2 transition duration-200 bg-transparent group hover:bg-gray-100 dark:hover:bg-gray-800 bg-opacity-20 hover:rounded-xl"
               >
-                <li className="py-12 px-4">
+                <li className="px-4 py-12">
                   <article>
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
                       <dl>
@@ -84,7 +84,7 @@ export default function Home({ posts }) {
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
-            href="/content"
+            href="/blog"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all posts"
           >

@@ -2,9 +2,9 @@ import siteMetadata from '@/data/siteMetadata'
 
 const socialData = [
   {
-    title: 'Latest video',
-    description: `Easiest Way to Develop Webapps on iPad`,
-    href: 'https://www.youtube.com/watch?v=SXVupZFCd8w',
+    title: 'Latest videos',
+    description: `Longer-form tips & tricks type videos`,
+    href: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
   },
   {
     title: 'YouTube',
@@ -13,7 +13,7 @@ const socialData = [
   },
   {
     title: 'Twitter',
-    description: `My public building journey`,
+    description: `Tweets & tips for our Twitter friends`,
     href: siteMetadata.twitter,
   },
   {
@@ -23,7 +23,7 @@ const socialData = [
   },
   {
     title: 'Instagram',
-    description: `Travel and fitness content`,
+    description: `Sliding into your DMs`,
     href: siteMetadata.instagram,
   },
   {

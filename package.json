@@ -1,6 +1,6 @@
 {
-  "name": "david-levai-garden",
-  "version": "1.2.0",
+  "name": "onbigo-live-blog",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "cross-env TAILWIND_MODE=watch next dev",
@@ -35,6 +35,8 @@
     "tailwindcss": "2.2.19"
   },
   "devDependencies": {
+    "@locator/babel-jsx": "^0.2.2",
+    "@locator/runtime": "^0.2.2",
     "@next/bundle-analyzer": "12.0.5",
     "@svgr/webpack": "5.5.0",
     "autoprefixer": "10.4.0",

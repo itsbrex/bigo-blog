@@ -25,9 +25,25 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
     formState: { errors, isSubmitSuccessful, isSubmitting },
   } = useForm()
 
+  // const subscribe = async ({ email }) => {
+  //   const res = await fetch(`/api/emailoctopus?email=${email}&list=monthly`)
+  //   return res
+  // }
   const subscribe = async ({ email }) => {
-    const res = await fetch(`/api/emailoctopus?email=${email}&list=monthly`)
-    return res
+    const response = await fetch(
+      'https://script.google.com/macros/s/AKfycbzT0yU9JcmuI5LHnjnOdWA5G_KThgxfeAP7EpipEWC5uuZJ217wpy67RbCeD4Jbi3dK/exec',
+      {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json, text/plain, */*',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      }
+    )
+    // add detailed logging
+    console.log('response', response)
+    return await response.json() // parses JSON response into native JavaScript objects
   }
 
   const onSubmit = (data) => subscribe(data)

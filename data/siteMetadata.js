@@ -11,6 +11,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.jpg',
   email: 'ushostoperations@bigo.sg',
   github: 'https://github.com/itsbrex',
+  instagram: 'https://www.instagram.com/bigolive.usa',
   twitter: 'https://twitter.com/intent/follow?screen_name=bigolivena',
   tiktok: 'https://tiktok.com/@bigoliveusa',
   youtube: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
@@ -20,7 +21,7 @@ const siteMetadata = {
     provider: 'emailoctopus',
   },
   comment: {
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
       repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,

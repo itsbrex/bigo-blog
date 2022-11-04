@@ -22,12 +22,10 @@ const Hero = () => {
           </h2>
         </div>
         <p className="mt-2 text-lg ">
-          Bigo Mail is a weekly newsletter that gives you a birds-eye view of what's happening at
-          BIGO, and offers a first-hand, inside look about what it takes to be successful in the
-          world of livestreaming.
+          The latest news, updates, and tips for streamers on how to be successful, grow their
+          audience, build their brand, and connect with fans.
         </p>
         <p className="mt-8 text-sm text-gray-400 dark:text-gray-400">
-          {/* a list of topics related to livestreaming on Bigo Live */}
           Topics: Bigo Live app, growing your audience, building your brand, connecting with your
           fans, going live, tips for streamers, how to be a successful streamer, what to stream on
           Bigo Live.
@@ -35,7 +33,7 @@ const Hero = () => {
 
         <Link href="https://twitter.com/intent/follow?screen_name=bigolivena">
           <a
-            className="flex flex-row items-center my-3 text-sm font-bold leading-6 text-green-600 hover:text-gray-100"
+            className="flex flex-row items-center my-3 text-sm font-bold leading-6 text-blue-500 hover:text-gray-100"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -57,8 +55,8 @@ const Hero = () => {
       <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
         <div className="grid items-start gap-8 my-2">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-green-600 to-amber-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <Link href="/projects">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-green-600 to-amber-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-100 animate-tilt"></div>
+            <Link href="https://www.onbigo.live">
               <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
                   <svg
@@ -75,11 +73,13 @@ const Hero = () => {
                       d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
                     />
                   </svg>
-                  <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    List of Broadcaster Events
+                  <span className="w-4/5 pr-6 text-gray-900 dark:text-gray-100">
+                    {/* Set the current month + " Broadcaster Events" i.e. 'Novemeber Broadcaster Events' */}
+                    {new Date().toLocaleString('default', { month: 'long' })} Broadcaster Events
+                    {/* List of Broadcaster Events */}
                   </span>
                 </span>
-                <span className="pl-6 transition duration-200 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                <span className="pl-6 transition duration-100 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                   Events &rarr;
                 </span>
               </a>
@@ -88,7 +88,7 @@ const Hero = () => {
         </div>
         <div className="grid items-start gap-8 my-2">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-100 animate-tilt"></div>
             <Link href="/blog">
               <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
@@ -110,7 +110,7 @@ const Hero = () => {
                     Bigo Mail thoughts & ponderings
                   </span>
                 </span>
-                <span className="pl-6 text-indigo-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                <span className="pl-6 text-indigo-400 transition duration-100 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                   Blog &rarr;
                 </span>
               </a>
@@ -119,8 +119,8 @@ const Hero = () => {
         </div>
         <div className="grid items-start gap-8 my-2">
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-fuchsia-600 to-primary-600  rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <Link href="/mentoring">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-fuchsia-600 to-primary-600  rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-100 animate-tilt"></div>
+            <Link href="https://help.onbigo.live">
               <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                 <span className="flex items-center space-x-5">
                   <svg
@@ -140,10 +140,10 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    Learning to grow as a live streaming
+                    Learning to grow as a live streamer
                   </span>
                 </span>
-                <span className="pl-6 transition duration-200 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                <span className="pl-6 transition duration-100 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                   FAQ &rarr;
                 </span>
               </a>

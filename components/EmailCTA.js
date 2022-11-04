@@ -5,9 +5,9 @@ import SuccessMessage from '@/components/SuccessMessage'
 
 const EmailCTA = ({
   title = "Join thousands of Host's leveling up their game with the best tips, tricks and how-to videos from the best on Bigo",
-  description = "Bigo Live is a great platform for live streaming, and we want to make sure our users are getting the most out of it! With these tips, tricks, and tutorial content, you'll be able to take your audience growth to the next level.",
+  description = 'Sign up today to get the latest tips, tricks and how-to videos from some of the best on Bigo. From beginner to expert, we have you covered.',
   list = 'monthly',
-  cta = 'I want to be notified!',
+  cta = 'Sign Me Up!',
   embedded = false,
 }) => {
   const {
@@ -78,7 +78,7 @@ const EmailCTA = ({
                   </button>
                 </form>
                 <p className="mt-3 text-sm text-gray-600 dark:text-gray-100">
-                  I won't spam. Promise.
+                  We won't spam. Promise.
                 </p>
               </div>
             </>

@@ -1,17 +1,14 @@
 ---
 name: The Bigo Live Team
-
 avatar: /static/images/avatar.png
-
-occupation: Full-time Dinosaur parent
-
+occupation: Full-time Dinosaur Parents
 company: Bigo Live
-
 email: ushostoperations@bigo.sg
+twitter: bigolivena
+instagram: bigolivena
+location: Los Angeles, CA
 
-twitter: https://twitter.com/intent/follow?screen_name=bigolivena
-
-linkedin: https://www.linkedin.com/company/bigo-technology-pte.-ltd.
+# linkedin: https://www.linkedin.com/company/bigo-technology-pte.-ltd.
 # github: https://github.com/itsbrex
 ---
 
@@ -23,8 +20,8 @@ Feel free to reach out to us for any questions, comments, or requests!
 
 We also offer help and support for the app through our [email](mailto:ushostoperations@bigo.sg), [help desk](https://help.onbigo.live/), or [in-app](bigolive://timeline?chatid=80073&agent=1).
 
-## Why did we create this blog?
 
+## Why did we create this blog?
 - To give the community a voice
 - To build a connection with and better understand our members
 - To solicit feedback to help improve our product

@@ -42,7 +42,7 @@ module.exports = {
         // blue: '#03ffed',
         blue: '#00e5ff',
         lightBlue: colors.sky,
-        // green: '#00ff1a',
+        green: '#00ff1a',
         // yellow: '#fed727',
         // purple: '#8719ff',
         // red: '#fc1352',

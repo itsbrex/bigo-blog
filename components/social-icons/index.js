@@ -1,5 +1,6 @@
 import Mail from './mail.svg'
 import Github from './github.svg'
+import Instagram from './instagram.svg'
 import Facebook from './facebook.svg'
 import Youtube from './youtube.svg'
 import Linkedin from './linkedin.svg'
@@ -11,6 +12,7 @@ import Link from '@/components/Link'
 
 const components = {
   mail: Mail,
+  instagram: Instagram,
   github: Github,
   facebook: Facebook,
   youtube: Youtube,

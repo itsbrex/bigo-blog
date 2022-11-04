@@ -10,9 +10,10 @@ export default function Footer() {
       <div className="flex flex-col items-center mt-16">
         <div className="flex mb-3 space-x-4">
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="6" />
-          <SocialIcon kind="github" href={siteMetadata.github} size="6" />
+          <SocialIcon kind="instagram" href={siteMetadata.instagram} size="6" />
+          {/* <SocialIcon kind="github" href={siteMetadata.github} size="6" /> */}
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size="6" />
-          <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" />
+          {/* <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" /> */}
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
           <SocialIcon kind="tiktok" href={siteMetadata.tiktok} size="6" />
         </div>
@@ -34,7 +35,7 @@ export default function Footer() {
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/blog"
           >
-            Content
+            Blog
           </Link>
           <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
@@ -46,38 +47,32 @@ export default function Footer() {
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/about"
           >
-            About Me
+            About
           </Link>
-          <Link
+          {/* <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/projects"
           >
             Projects
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/mentoring"
           >
             Mentoring
-          </Link>
-          <Link
-            className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
-            href="/saas-kit"
-          >
-            SaaS Kit
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/uses"
           >
             Uses
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/social"
           >
             Social
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

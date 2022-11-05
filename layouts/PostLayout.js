@@ -29,22 +29,50 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   //   const res = await fetch(`/api/emailoctopus?email=${email}&list=monthly`)
   //   return res
   // }
-  const subscribe = async ({ email }) => {
-    const response = await fetch(
-      'https://script.google.com/macros/s/AKfycbzT0yU9JcmuI5LHnjnOdWA5G_KThgxfeAP7EpipEWC5uuZJ217wpy67RbCeD4Jbi3dK/exec',
-      {
-        method: 'POST',
-        headers: {
-          Accept: 'application/json, text/plain, */*',
-          'Content-Type': 'application/json',
+  const subscribe = async ({ email, bigoId }) => {
+    // set the timestamp to be in the format like this example '11/4/2022 16:21:28'
+    const timestamp = new Date().toLocaleString('en-US', {
+      timeZone: 'America/Los_Angeles',
+      hour12: false,
+      month: 'numeric',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+    })
+
+    const response = await fetch('https://api.apispreadsheets.com/data/S7iDzPcRAhIrBjDt/', {
+      method: 'POST',
+      headers: {
+        accessKey: '97ce4e019e4f5176f15a7641a4a93924',
+        secretKey: '1abe43c12b7cc1654b6006108a41a5d1',
+      },
+      body: JSON.stringify({
+        data: {
+          // add the current time as the  Timestamp
+          Timestamp: timestamp,
+          'Email Address': email,
+          'Opt-In Notice': 'I agree',
+          'Please enter your BIGO ID': bigoId,
+          // 'Please enter your WhatsApp #': '+1(443)472‑7287',
+          // 'Please select the topics you would like to subscribe to for updates.':
+          // 	'ALL - Keep me in the loop with all BIGO updates!',
         },
-        body: JSON.stringify({ email }),
-      }
-    )
+      }),
+    })
     // add detailed logging
-    console.log('response', response)
-    return await response.json() // parses JSON response into native JavaScript objects
+    // console.log('response', response)
+    return await response // parses JSON response into native JavaScript objects
   }
+
+  // .then((res) => {
+  //   if (res.status === 201) {
+  //     // SUCCESS
+  //   } else {
+  //     // ERROR
+  //   }
+  // })
 
   const onSubmit = (data) => subscribe(data)
   const { slug, fileName, date, title, tags } = frontMatter
@@ -200,6 +228,19 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       disabled={isSubmitting}
                     />
                     <ErrorMessage errors={errors} name="email" />
+                    <label htmlFor="bigoId" className="sr-only">
+                      BIGO ID
+                    </label>
+                    <input
+                      id="bigoId"
+                      name="bigoId"
+                      type="text"
+                      required
+                      className="w-full px-5 py-3 mt-3 placeholder-gray-500 border-gray-500 rounded-md dark:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-gray-800 dark:focus:ring-white"
+                      placeholder="Enter your BIGO ID"
+                      {...register('bigoId')}
+                      disabled={isSubmitting}
+                    />
 
                     <button
                       type="submit"

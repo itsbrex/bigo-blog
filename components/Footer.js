@@ -24,7 +24,7 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="flex flex-col mb-8 space-x-2 text-sm text-gray-500 md:flex-row dark:text-gray-400">
+        <div className="flex mb-8 space-x-2 text-sm text-gray-500 md:flex-row dark:text-gray-400">
           <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
             href="/"

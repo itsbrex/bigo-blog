@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Bigo Live - Blog',
+  title: 'Bigo Live',
   author: 'The Bigo Live Team',
   headerTitle: '@bigolive.usa',
   description:
@@ -9,7 +9,8 @@ const siteMetadata = {
   siteRepo: 'https://github.com/itsbrex/bm-newsletter',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.jpg',
-  email: 'ushostoperations@bigo.sg',
+  email:
+    'mailto:ushostoperations@bigo.sg?subject=Bigo%20Mail%20Feedback%20%2B%20Idea!&body=Hi%20Team!%0D%0A%0D%0AI%20had%20an%20idea%20about...',
   github: 'https://github.com/itsbrex',
   instagram: 'https://www.instagram.com/bigolive.usa',
   twitter: 'https://twitter.com/intent/follow?screen_name=bigolivena',

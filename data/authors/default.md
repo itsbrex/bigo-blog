@@ -3,7 +3,8 @@ name: The Bigo Live Team
 avatar: /static/images/avatar.png
 occupation: Full-time Dinosaur Parents
 company: Bigo Live
-email: ushostoperations@bigo.sg
+email: ushostoperations@bigo.sg?subject=Bigo%20Mail%20Feedback%20%2B%20Idea!&body=Hi%20Team!%0D%0A%0D%0AI%20had%20an%20idea%20about...
+
 twitter: bigolivena
 instagram: bigolivena
 location: Los Angeles, CA

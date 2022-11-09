@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
   useAnalytics()
   const { pathname } = useRouter()
   return (
-    <ThemeProvider attribute="class" storageKey="iamdavidlevai-digital-garden">
+    <ThemeProvider attribute="class" storageKey="bigolive-bigo-blog">
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
@@ -25,3 +25,6 @@ export default function App({ Component, pageProps }) {
     </ThemeProvider>
   )
 }
+
+// T-338 switch home path with Blog
+// TODO

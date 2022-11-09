@@ -74,12 +74,11 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="w-4/5 pr-6 text-gray-900 dark:text-gray-100">
-                    {/* Set the current month + " Broadcaster Events" i.e. 'Novemeber Broadcaster Events' */}
-                    {new Date().toLocaleString('default', { month: 'long' })} Broadcaster Events
+                    {new Date().toLocaleString('default', { month: 'long' })} Events
                     {/* List of Broadcaster Events */}
                   </span>
                 </span>
-                <span className="pl-6 transition duration-100 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                <span className="w-1/5 pl-6 transition duration-100 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                   Events &rarr;
                 </span>
               </a>
@@ -140,7 +139,7 @@ const Hero = () => {
                     />
                   </svg>
                   <span className="pr-6 text-gray-900 dark:text-gray-100">
-                    Learning to grow as a live streamer
+                    View our Help Docs & FAQs
                   </span>
                 </span>
                 <span className="pl-6 transition duration-100 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">

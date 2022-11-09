@@ -107,7 +107,7 @@ export default function Social() {
             </div>
           </div>
         </div>
-        <h1>Helping to grow digital product agencies and indie developers</h1>
+        <h1>Writings from the Bigoverse</h1>
       </div>
     </>
   )

@@ -35,6 +35,7 @@
     "tailwindcss": "2.2.19"
   },
   "devDependencies": {
+    "@impulse.dev/runtime": "^0.4.5",
     "@locator/babel-jsx": "^0.2.2",
     "@locator/runtime": "^0.2.2",
     "@next/bundle-analyzer": "12.0.5",

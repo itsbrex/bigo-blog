@@ -10,16 +10,16 @@ export default function Social() {
         description={siteMetadata.description}
       />
       <div className="container mx-auto">
-        <div className="py-12 grid grid-cols-1 gap-8 grid-rows-3">
-          <div className="grid gap-8 items-start my-2">
+        <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
+          <div className="grid items-start gap-8 my-2">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-green-600 to-amber-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-              <Link href="https://dvdlv.me/yt">
-                <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+              <Link href="https://www.youtube.com/c/BIGOLIVEUSAOfficial?sub_confirmation=1">
+                <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                   <span className="flex items-center space-x-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 text-green-600 -rotate-6"
+                      className="w-6 h-6 text-green-600 -rotate-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -32,25 +32,25 @@ export default function Social() {
                       />
                     </svg>
                     <span className="pr-6 text-gray-900 dark:text-gray-100">
-                      2 videos weekly on my YouTube channel
+                      2 videos weekly on our YouTube channel
                     </span>
                   </span>
-                  <span className="pl-6 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
+                  <span className="pl-6 transition duration-200 text-amber-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                     Go &rarr;
                   </span>
                 </a>
               </Link>
             </div>
           </div>
-          <div className="grid gap-8 items-start my-2">
+          <div className="grid items-start gap-8 my-2">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-              <Link href="https://tiktok.com/@iamdavidlevai">
-                <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+              <Link href="https://tiktok.com/@bigoliveusa">
+                <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                   <span className="flex items-center space-x-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 text-pink-600 -rotate-6"
+                      className="w-6 h-6 text-pink-600 -rotate-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -66,22 +66,22 @@ export default function Social() {
                       Dropping byte-sized tips on TikTok
                     </span>
                   </span>
-                  <span className="pl-6 text-indigo-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
+                  <span className="pl-6 text-indigo-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                     Go &rarr;
                   </span>
                 </a>
               </Link>
             </div>
           </div>
-          <div className="grid gap-8 items-start my-2">
+          <div className="grid items-start gap-8 my-2">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-fuchsia-600 to-primary-600  rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-              <Link href="https://instagram.com/iamdavidlevai">
-                <a className="relative px-7 py-4 bg-white dark:bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+              <Link href="https://instagram.com/bigolive.usa">
+                <a className="relative flex items-center py-4 leading-none bg-white divide-x divide-gray-600 rounded-lg px-7 dark:bg-black">
                   <span className="flex items-center space-x-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 text-fuchsia-600 -rotate-6"
+                      className="w-6 h-6 text-fuchsia-600 -rotate-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -96,10 +96,10 @@ export default function Social() {
                       />
                     </svg>
                     <span className="pr-6 text-gray-900 dark:text-gray-100">
-                      Travel & Fitness on IG
+                      BIGO pics & vids on IG
                     </span>
                   </span>
-                  <span className="pl-6 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition duration-200">
+                  <span className="pl-6 transition duration-200 text-primary-400 group-hover:text-gray-900 dark:group-hover:text-gray-100">
                     Go &rarr;
                   </span>
                 </a>

@@ -52,7 +52,7 @@ const usesData = [
   {
     title: 'Daily.dev *',
     description: `Homepage to stay up to date in the dev world`,
-    href: 'https://api.daily.dev/get?r=DavidLevai',
+    href: 'https://api.daily.dev/get?r=itsbrex',
   },
   {
     title: 'EmailOctopus *',

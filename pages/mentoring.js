@@ -9,21 +9,24 @@ export default function Mentoring() {
         title={`Mentoring - ${siteMetadata.author}`}
         description={`Mentoring - ${siteMetadata.author}`}
       />
-      <div className="divide-y max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto divide-y">
         <div className="mt-24 text-center">
           <h1 className="text-lg font-extrabold">
-            If you'd be interested in getting some guidance from me about any of the following
-            topics, feel free to hit me up on{' '}
-            <Link className="text-primary-500 underline" href="https://twitter.com/iamdavidlevai">
+            If you'd be interested in staying up to date about any of the following topics, feel
+            free to hit us up on{' '}
+            <Link
+              className="underline text-primary-500"
+              href="https://twitter.com/intent/follow?screen_name=bigolivena"
+            >
               Twitter DMs
             </Link>
             .
           </h1>
           <ul className="mt-4 list-disc">
-            <li className="list-item mt-2">• Growing as a freelancer developer</li>
-            <li className="list-item mt-2">• Growing as an indie developer</li>
-            <li className="list-item mt-2">• Building production-ready SaaS</li>
-            <li className="list-item mt-2">• Building a digital product agency</li>
+            <li className="mt-2 list-item">• Growing as a livestreamer </li>
+            <li className="mt-2 list-item">• Growing as an Agency Leader</li>
+            <li className="mt-2 list-item">• Building a successful social media presence</li>
+            <li className="mt-2 list-item">• Building a talent Agency</li>
           </ul>
           <p className="mt-24">
             This page is currently a draft. Look back later to see what's changed.{' '}

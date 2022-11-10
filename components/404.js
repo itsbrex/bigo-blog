@@ -19,7 +19,7 @@ const links = [
     title: 'YouTube',
     description: 'Tutorials, guides, and vlog',
     icon: VideoCameraIcon,
-    route: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
+    route: 'https://www.youtube.com/c/BIGOLIVEUSAOfficial?sub_confirmation=1',
   },
 ]
 

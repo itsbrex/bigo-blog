@@ -18,18 +18,18 @@ export default function Footer() {
           <SocialIcon kind="tiktok" href={siteMetadata.tiktok} size="6" />
         </div>
         <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
-          <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
-          <div>{` • `}</div>
-          <Link href="/">{siteMetadata.title}</Link>
+          <div>{` - `}</div>
+          <div>{siteMetadata.author}</div>
+          {/* <div>{` • `}</div> */}
+          {/* <Link href="/">{siteMetadata.title}</Link> */}
         </div>
         <div className="flex mb-8 space-x-2 text-sm text-gray-500 md:flex-row dark:text-gray-400">
           <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"
-            href="/"
+            href="https://www.onbigo.live"
           >
-            Home
+            Events
           </Link>
           <Link
             className="hover:text-primary-600 dark:hover:text-primary-600 hover:underline"

@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Bigo Live',
-  author: 'The Bigo Live Team',
+  author: 'Bigo Live North America',
   headerTitle: '@bigolive.usa',
   description:
     'Thoughts and resources on how to grow your audience on Bigo Live and maximize your social impact in a positive way.',
@@ -15,7 +15,7 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com/bigolive.usa',
   twitter: 'https://twitter.com/intent/follow?screen_name=bigolivena',
   tiktok: 'https://tiktok.com/@bigoliveusa',
-  youtube: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
+  youtube: 'https://www.youtube.com/c/BIGOLIVEUSAOfficial?sub_confirmation=1',
   linkedin: 'https://www.linkedin.com/company/bigo-technology-pte.-ltd./',
   locale: 'en-US',
   newsletter: {

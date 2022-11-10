@@ -4,7 +4,7 @@ const socialData = [
   {
     title: 'Latest videos',
     description: `Longer-form tips & tricks type videos`,
-    href: 'https://youtube.com/channel/UCqMsuZ2Qgkz5QLSuT0n7YrA?sub_confirmation=1',
+    href: 'https://www.youtube.com/c/BIGOLIVEUSAOfficial?sub_confirmation=1',
   },
   {
     title: 'YouTube',

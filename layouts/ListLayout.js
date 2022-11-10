@@ -16,7 +16,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
 
   return (
     <>
-      <div className="divide-y max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {title}
@@ -53,9 +53,9 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               <Link
                 href={`/${slug}`}
                 key={slug}
-                className="my-4 flex group hover:bg-gray-100 dark:hover:bg-gray-800 bg-transparent bg-opacity-20 px-2 hover:rounded-xl transition duration-200"
+                className="flex px-2 my-4 transition duration-200 bg-transparent group hover:bg-gray-100 dark:hover:bg-gray-800 bg-opacity-20 hover:rounded-xl"
               >
-                <li className="py-12 px-4">
+                <li className="px-4 py-12">
                   <article className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
                     <div>
                       {lastmod && (
@@ -69,7 +69,12 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                       <dl>
                         <dt className="sr-only">Published on</dt>
                         <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                          <time dateTime={date}>{formatDate(date)}</time>
+                          <time dateTime="{date}">
+                            {formatDate(date, 'America/Los_Angeles', 'MMMM Do, YYYY')}
+                          </time>
+                          <time dateTime="{date}">
+                            {formatDate(date, 'America/Los_Angeles', 'MMMM Do, YYYY')}
+                          </time>
                         </dd>
                       </dl>
                     </div>

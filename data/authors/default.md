@@ -1,12 +1,12 @@
 ---
-name: The Bigo Live Team
+name: Bigo Live North America
 avatar: /static/images/avatar.png
 occupation: Full-time Dinosaur Parents
 company: Bigo Live
 email: ushostoperations@bigo.sg?subject=Bigo%20Mail%20Feedback%20%2B%20Idea!&body=Hi%20Team!%0D%0A%0D%0AI%20had%20an%20idea%20about...
 
 twitter: bigolivena
-instagram: bigolivena
+instagram: bigolive.usa
 location: Los Angeles, CA
 
 # linkedin: https://www.linkedin.com/company/bigo-technology-pte.-ltd.
@@ -15,7 +15,7 @@ location: Los Angeles, CA
 
 We are the Bigo Live Team for North America. 👋
 
-We create and promote various types of content on [Instagram](https://www.instagram.com/bigolivena/?hl=en), [Twitter](https://twitter.com/intent/follow?screen_name=bigolivena), and [YouTube](https://www.youtube.com/channel/UCJHf_7B_3Csg3C7Qu3HkEMw?view_as=subscriber).
+We create and promote various types of content on [Instagram](https://instagram.com/bigolive.usa), [Twitter](https://twitter.com/intent/follow?screen_name=bigolivena), and [YouTube](https://www.youtube.com/c/BIGOLIVEUSAOfficial?sub_confirmation=1).
 
 Feel free to reach out to us for any questions, comments, or requests!
 

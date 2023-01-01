@@ -30,7 +30,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   //   return res
   // }
   const subscribe = async ({ email, bigoId }) => {
-    // set the timestamp to be in the format like this example '11/4/2022 16:21:28'
     const timestamp = new Date().toLocaleString('en-US', {
       timeZone: 'America/Los_Angeles',
       hour12: false,
@@ -61,9 +60,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         },
       }),
     })
-    // add detailed logging
-    // console.log('response', response)
-    return await response // parses JSON response into native JavaScript objects
+    return await response
   }
 
   // .then((res) => {

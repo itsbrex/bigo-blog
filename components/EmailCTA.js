@@ -85,7 +85,7 @@ const EmailCTA = ({
                     type="email"
                     autoComplete="email"
                     required
-                    className="w-full px-5 py-3 text-black placeholder-gray-500 border-gray-500 rounded-md dark:bg-gray-900 dark:border-white focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-blue-400 focus:ring-gray-800 dark:focus:ring-white"
+                    className="w-full px-5 py-3 pt-3 text-black placeholder-gray-500 border-gray-500 rounded-md  dark:bg-gray-900 dark:border-white focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-blue-400 focus:ring-gray-800 dark:focus:ring-white"
                     placeholder="Enter your email"
                     {...register('email', {
                       required: 'Email is required.',

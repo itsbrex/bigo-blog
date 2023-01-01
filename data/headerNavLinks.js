@@ -1,7 +1,7 @@
 const headerNavLinks = [
   // { href: '/projects', title: 'Projects' },
   { href: 'https://www.onbigo.live/', title: 'Events' },
-  { href: '/blog', title: 'Blog' },
+  { href: '/content', title: 'Content' },
   { href: 'https://help.onbigo.live/', title: 'Help' },
   { href: '/about', title: 'About' },
   // { href: '/saas-kit', title: 'SaaS Kit' },

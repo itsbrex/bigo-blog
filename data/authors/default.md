@@ -4,11 +4,8 @@ avatar: /static/images/avatar.png
 occupation: Full-time Dinosaur Parents
 company: Bigo Live
 email: ushostoperations@bigo.sg?subject=Bigo%20Mail%20Feedback%20%2B%20Idea!&body=Hi%20Team!%0D%0A%0D%0AI%20had%20an%20idea%20about...
-
-twitter: bigolivena
-instagram: bigolive.usa
+twitter: https://twitter.com/bigolivena
 location: Los Angeles, CA
-
 # linkedin: https://www.linkedin.com/company/bigo-technology-pte.-ltd.
 # github: https://github.com/itsbrex
 ---

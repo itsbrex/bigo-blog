@@ -1,3 +1,3 @@
-<!-- ![banner](/public/static/images/twitter-card.jpg) -->
+![banner](/public/static/images/twitter-card.jpg)
 
-# Bigo Live's Bigo Mail Newsletter Site
+# Bigo Live - Blog

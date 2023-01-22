@@ -1,34 +1,30 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/business-of-it",
-      "destination": "https://business-of-it.davidlevai.com"
-    },
-    {
-      "source": "/bigo-mail---it's-finally-here",
-      "destination": "/bigo-mail-launch"
-    },
-    {
-      "source": "/blog/glassmorphism-with-tailwind-css-under-60-seconds",
-      "destination": "/tailwind-glassmorphism"
-    },
-    {
-      "source": "/glassmorphism-with-tailwind-css-under-60-seconds",
-      "destination": "/tailwind-glassmorphism"
-    },
-    {
-      "source": "/blog/why-i-fired-my-biggest-client",
-      "destination": "/fired-my-client"
-    },
-    {
-      "source": "/blog/why-i-fired-my-biggest-client",
-      "destination": "/fired-my-client"
-    },
-    {
-      "source": "/why-i-fired-my-biggest-client",
-      "destination": "/fired-my-client"
-    }
-  ]
+	"cleanUrls": true,
+	"trailingSlash": false,
+	"redirects": [
+		{
+			"source": "/bigo-mail---it's-finally-here",
+			"destination": "/bigo-mail-launch"
+		},
+		{
+			"source": "/blog/glassmorphism-with-tailwind-css-under-60-seconds",
+			"destination": "/tailwind-glassmorphism"
+		},
+		{
+			"source": "/glassmorphism-with-tailwind-css-under-60-seconds",
+			"destination": "/tailwind-glassmorphism"
+		},
+		{
+			"source": "/blog/why-i-fired-my-biggest-client",
+			"destination": "/fired-my-client"
+		},
+		{
+			"source": "/blog/why-i-fired-my-biggest-client",
+			"destination": "/fired-my-client"
+		},
+		{
+			"source": "/why-i-fired-my-biggest-client",
+			"destination": "/fired-my-client"
+		}
+	]
 }
